@@ -1,0 +1,17 @@
+/* 
+ * squelch ver. 1.0.0
+ * 
+ * This file was auto-magically generated.
+ */ 
+
+#undef SQUELCH_SWITCH_ENABLE_
+
+#if defined(SQUELCH_SWITCH_ENABLE_)
+   #error Should not get here
+#elif defined(__clang__)
+   #pragma clang diagnostic ignored "-Wundef"
+#elif defined(__INTEL_COMPILER)
+   #error Not implemented "-Wundef"
+#elif defined(__GNUC__)
+   #pragma GCC diagnostic ignored "-Wundef"
+#endif

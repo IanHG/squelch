@@ -1,0 +1,17 @@
+/* 
+ * squelch ver. 1.0.0
+ * 
+ * This file was auto-magically generated.
+ */ 
+
+#undef SQUELCH_SWITCH_ENABLE_
+
+#if defined(SQUELCH_SWITCH_ENABLE_)
+   #error Should not get here
+#elif defined(__clang__)
+   #pragma clang diagnostic ignored "-Wdocumentation-unknown-command"
+#elif defined(__INTEL_COMPILER)
+   #error Not implemented "-Wdocumentation-unknown-command"
+#elif defined(__GNUC__)
+   #pragma GCC diagnostic ignored "-Wdocumentation-unknown-command"
+#endif
